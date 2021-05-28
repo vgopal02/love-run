@@ -36,3 +36,19 @@ h1,h2{
      list-style-type: none;
      margin-right:30px;
 }
+#menu,logo{line-height:75px;
+
+}
+#menu a{
+     text-decoration:none;
+     color:inherit;
+
+}
+#menu a:hover{
+     border-bottom: 1px solid red;
+
+}
+
+.active{
+     border-bottom:1px solid red;
+}
