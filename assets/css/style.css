@@ -31,8 +31,12 @@ h1,h2{
      font-size: 110%;
      letter-spacing: 4px;
 }
-#menu li{
+
+#menu ul{
      float:right;
+}
+#menu li{
+     float:left;
      list-style-type: none;
      margin-right:30px;
 }
@@ -51,4 +55,37 @@ h1,h2{
 
 .active{
      border-bottom:1px solid red;
+}
+
+/*hero-image*/
+
+#hero-outer{
+     height:600px;
+     width:100%;
+     overflow:hidden;
+}
+
+#hero-image{
+     height:600px;
+     width:100%;
+     background: url('../images/hero-image.webp') no-repeat center center;
+     /* animates zoom effect on loading page*/
+     animation-name:hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+
+
+}
+
+
+
+/*creates the zoom effect for her0-image*/
+
+@keyframes hero-zoom {
+     from{
+          transform:scale(1);
+     }
+     to{
+          transform:scale(1.1)
+     }
 }
