@@ -25,7 +25,7 @@ h2 {
 #logo {
      float: left;
      font-size: 280%;
-     margi-left:30px;
+     margin-left:30px;
 }
 
 /*navigation links*/
@@ -125,6 +125,10 @@ logo {
 
 /* club ethos section */
 
+#welcome{
+     text-align:center;
+}
+
 #club-ethos{
      height:600px;
 }
@@ -140,7 +144,7 @@ logo {
      padding-top:30px;
      width:33%;
      float:right;
-     background-color:blue;
+     
 }
 
 
@@ -173,7 +177,15 @@ hr{
      margin-bottom:50px;
      text-align:right;
 }
-#circle-container{
+
+.right-about-heading h2{
+     text-align:right;
+}
+
+.right-about-heading p{
+     text-align:right;
+}
+#center-about-container{
      width:300px;
      height:300px;
      padding:30px; 
