@@ -197,8 +197,8 @@ hr{
      border-radius:50%;
      margin:0 auto;
 }
-
 #circle-cover-bg{
      background:url('../images/ethos-center-image.jpg') no-repeat center center;
      height:100%;
+     border-radius:50%;
 }
