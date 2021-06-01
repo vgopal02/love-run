@@ -164,3 +164,21 @@ hr{
      margin: 5px;
      width: 100%;
 }
+
+.right-about-heading{
+     width:60%;
+     float:right;
+     line-height:20px;
+     clear:both;
+     margin-bottom:50px;
+     text-align:right;
+}
+#circle-container{
+     width:300px;
+     height:300px;
+     padding:30px;
+     border-style:solid;
+     border-color: #ccc;
+     border-width:1px;
+     border-radius:50%;
+}
